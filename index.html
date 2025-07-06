@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta name="keywords" content="Asupan Videy, asupan videy terbaru, video viral, konten video harian, kualitas jernih, link download cepat, update konten, tanpa ribet">
+    <meta name="author" content="Claren">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://videy.co.clarisa.web.id">
+    <meta property="og:title" content="Asupan | Videy">
+    <meta property="og:description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://videy.co.clarisa.web.id">
+    <meta property="twitter:title" content="Asupan | Videy">
+    <meta property="twitter:description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta property="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png">
+    
+    <title>Tech Insights | Your Source for Digital Knowledge</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Light Theme */
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --accent-color: #4895ef;
+            --border-color: #e0e0e0;
+            --card-bg: #f9fafb;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            
+            /* Fonts */
+            --font-main: 'Inter', sans-serif;
+            --font-heading: 'Roboto', sans-serif;
+        }
+
+        .dark-mode {
+            /* Dark Theme */
+            --bg-color: #121212;
+            --text-color: #f5f5f5;
+            --primary-color: #4895ef;
+            --secondary-color: #4361ee;
+            --accent-color: #3f37c9;
+            --border-color: #333333;
+            --card-bg: #1e1e1e;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.3;
+            margin: 1.5rem 0 1rem;
+            color: var(--text-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.75rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--card-bg);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 3rem 0;
+        }
+
+        .article-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 1rem;
+            color: #777;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            object-fit: cover;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--card-bg);
+            padding: 2rem 0;
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .visitor-counter {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* Telegram Banner */
+        .telegram-banner {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #2AABEE, #229ED9);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            animation: pulse 2s infinite;
+        }
+
+        .telegram-banner a {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .telegram-icon {
+            font-size: 1.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.75rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .telegram-banner {
+                left: 20px;
+                right: 20px;
+                bottom: 10px;
+                justify-content: center;
+            }
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Asupan Videy",
+      "description": "Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.",
+      "author": {
+        "@type": "Person",
+        "name": "Claren"
+      },
+      "publisher": {
+        "@type": "Creator",
+        "name": "Claren",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png"
+        }
+      },
+      "datePublished": "2025-07-7",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoY0enJydixdVH3eR7DCzr9GBuQd7jg9C1FLWEqXKpP2DYszk_pPXB_8atJc5dwKX5hftpZhik_LnSCwIkj6E9JMeBUJl_z7191dSc26rOFp10gzRXnyQ48peSu9zYXln4L0dNzWOcdOrUvRDnbw0JixQJO_ZkyYDnyalIqBait4ueLAOlcq_KKF49tLU5/s3264/1000032960.png"
+    }
+    </script>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Calren × Videy</div>
+                <nav class="nav-links">
+                    <a href="https://videy.co.clarisa.web.id">Home</a>
+                    <a href="https://videy.co.clarisa.web.id">Articles</a>
+                    <a href="https://videy.co.clarisa.web.id">About</a>
+                    <a href="https://videy.co.clarisa.web.id">Contact</a>
+                </nav>
+                <button class="theme-toggle" id="themeToggle">
+                    <span id="themeIcon">🌙</span> <span id="themeText">Dark Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="article-card">
+            <h1>Asupan Videy</h1>
+            <div class="article-meta">
+                <span>Claren</span>
+                <span>•</span>
+                <span>Juli 7, 2025</span>
+                <span>•</span>
+                <span>120 min read</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoY0enJydixdVH3eR7DCzr9GBuQd7jg9C1FLWEqXKpP2DYszk_pPXB_8atJc5dwKX5hftpZhik_LnSCwIkj6E9JMeBUJl_z7191dSc26rOFp10gzRXnyQ48peSu9zYXln4L0dNzWOcdOrUvRDnbw0JixQJO_ZkyYDnyalIqBait4ueLAOlcq_KKF49tLU5/s3264/1000032960.png" class="article-image" alt="Gambar Artikel">
+            
+            <h2>Andini Permata Part 1</h2>
+<div><a href="https://videy.selin.web.id/?videoID=zowwL5nD1" target="_blank">🫱 https://videy.co/v/?id=yjjq6nmD1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=WANDXTf41" target="_blank">🫱 https://videy.co/v/?id=ORncVdQI1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=CWA1xr0p1" target="_blank">🫱 https://videy.co/v/?id=uBPBKCEd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=lCdI4pT71" target="_blank">🫱 https://videy.co/v/?id=243yP9hd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=XkqyMqsk1" target="_blank">🫱 https://videy.co/v/?id=gnxGd2Hy1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=xE6Uc2gl1" target="_blank">🫱 https://videy.co/v/?id=2WuW56Qy1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=lCdI4pT71" target="_blank">🫱 https://videy.co/v/?id=Z3fzt77s1</a>&nbsp;</div>
+            <h2>Andini Permata Part 2</h2>
+<div><a href="https://videy.selin.web.id/?videoID=o0Y3rFbk1" target="_blank">🫱 https://videy.co/v/?id=6AokyfFd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=NiMz4Ua91" target="_blank">🫱 https://videy.co/v/?id=x3XwEoLf1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=XyqjRK021" target="_blank">🫱 https://videy.co/v/?id=7yPiBQVW1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=YDgIT79o1" target="_blank">🫱 https://videy.co/v/?id=JXfyPafu1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=NWsBNt3j1" target="_blank">🫱 https://videy.co/v/?id=KoEcGVxJ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=bUITWNdt1" target="_blank">🫱 https://videy.co/v/?id=gflykQKh1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=PgfCNY1t1" target="_blank">🫱 https://videy.co/v/?id=17oGgKRp1</a>&nbsp;</div>
+            <h2>Andini Permata Part 3</h2>
+<div><a href="https://videy.selin.web.id/?videoID=ovZFVyAe1" target="_blank">🫱 https://videy.co/v/?id=C1LF3tX61</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=PMlEWFMN1" target="_blank">🫱 https://videy.co/v/?id=HcjBh3g11</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=fpilSP1h1" target="_blank">🫱 https://videy.co/v/?id=Eys2Zhv71</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=dup205Cb1" target="_blank">🫱 https://videy.co/v/?id=BMXDX7fc1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=hyGvYIfK1" target="_blank">🫱 https://videy.co/v/?id=ci0E9iFI1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=zYfO16dc1" target="_blank">🫱 https://videy.co/v/?id=DKcKzDQQ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=14zRTFOV1" target="_blank">🫱 https://videy.co/v/?id=DckcDgiF1</a>&nbsp;</div>            
+            <h2>Andini Permata Part 4</h2>
+<div><a href="https://videy.selin.web.id/?videoID=TxeiAQpy1" target="_blank">🫱 https://videy.co/v/?id=bZEIC9th1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=3EZ74rF61" target="_blank">🫱 https://videy.co/v/?id=W1hhEQ8Z1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=6cwVDnKc1" target="_blank">🫱 https://videy.co/v/?id=GBZsIgd61</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ulgSlIoR1" target="_blank">🫱 https://videy.co/v/?id=Y3qaCein1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=6P2Liziz1" target="_blank">🫱 https://videy.co/v/?id=l4BZWd1l1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=Xiz4Auh51" target="_blank">🫱 https://videy.co/v/?id=zbQ3Ybdd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=dicFgrHK1" target="_blank">🫱 https://videy.co/v/?id=mBoGa2kp1</a>&nbsp;</div>            
+            <h2>Andini Permata Part 5</h2>
+<div><a href="https://videy.selin.web.id/?videoID=ofgSzlG91" target="_blank">🫱 https://videy.co/v/?id=v4yjvk0K1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=MhBRXDS21" target="_blank">🫱 https://videy.co/v/?id=YzylL8Pl1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=6N4NcNRU1" target="_blank">🫱 https://videy.co/v/?id=kgtMAByi1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=oqIGtgD51" target="_blank">🫱 https://videy.co/v/?id=RMXW7yeY1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=zJceQ5hN1" target="_blank">🫱 https://videy.co/v/?id=55F948IQ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=O13MEnKs1" target="_blank">🫱 https://videy.co/v/?id=dnshc3zu1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=4iMSsbPh1" target="_blank">🫱 https://videy.co/v/?id=JDUNvFpe1</a>&nbsp;</div>            
+            <h2>Janda Bening</h2>
+<div><a href="https://videy.selin.web.id/?videoID=CE1PN5zP1" target="_blank">🫱 https://videy.co/v/?id=isbvXV3S1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=jkfxy31d1" target="_blank">🫱 https://videy.co/v/?id=OZHYskZY1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=cxTOTqJk1" target="_blank">🫱 https://videy.co/v/?id=iu48hNez1</a>&nbsp;</div>            
+            <h2>Ome Tv</h2>
+<div><a href="https://videy.selin.web.id/?videoID=C6GoYIx31" target="_blank">🫱 https://videy.co/v/?id=3CwDsQAT1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=sGGCxQZw1" target="_blank">🫱 https://videy.co/v/?id=jEWfnGta1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=xzgfSZMY1" target="_blank">🫱 https://videy.co/v/?id=bEF5Jxzw1</a>&nbsp;</div>            
+            <h2>Melayani Aepenuh Hati</h2>
+<div><a href="https://videy.selin.web.id/?videoID=IenpIcTN1" target="_blank">🫱 https://videy.co/v/?id=RRZ0Rr7G1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=RYDgcSMx1" target="_blank">🫱 https://videy.co/v/?id=d07IcMOQ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=jzM0mqOL1" target="_blank">🫱 https://videy.co/v/?id=IZNNDib51</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=VW5WBk641" target="_blank">🫱 https://videy.co/v/?id=5UrvKtq31</a>&nbsp;</div>            
+            <h2>Kosan Saksi Lendir</h2>
+<div><a href="https://videy.selin.web.id/?videoID=iLefRDKG1" target="_blank">🫱 https://videy.co/v/?id=T41XFiYn1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=KiQ77hsn1" target="_blank">🫱 https://videy.co/v/?id=fyYeehOd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=67fPisTW1" target="_blank">🫱 https://videy.co/v/?id=chLs1Z1G1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=DDFSo16C1" target="_blank">🫱 https://videy.co/v/?id=7Pqliulp1</a>&nbsp;</div>            
+            <h2>Coloq Terus Menerus</h2>
+<div><a href="https://videy.selin.web.id/?videoID=qIhmfhl11" target="_blank">🫱 https://videy.co/v/?id=mJVZq8Nk1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=7ofQyos81" target="_blank">🫱 https://videy.co/v/?id=Zn2gGJZD1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=4rjlHvHr1" target="_blank">🫱 https://videy.co/v/?id=bISb5CM11</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=YgdAzk9t1" target="_blank">🫱 https://videy.co/v/?id=FnDIxFxy1</a>&nbsp;</div>            
+            <h2>Ayang Bocil Nakal</h2>
+<div><a href="https://videy.selin.web.id/?videoID=7NBWL27z1" target="_blank">🫱 https://videy.co/v/?id=s3hYCjwt1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=15JVSlVV1" target="_blank">🫱 https://videy.co/v/?id=WhI8hKmF1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=kNS6Mlmw1" target="_blank">🫱 https://videy.co/v/?id=bXepnoXT1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=lnUafxo91" target="_blank">🫱 https://videy.co/v/?id=NxvzHzv01</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ia3p5AJo1" target="_blank">🫱 https://videy.co/v/?id=jMZVdBeh1</a>&nbsp;</div>            
+            <h2>Gede Banget Anjir</h2>
+<div><a href="https://videy.selin.web.id/?videoID=rT9Cak8V1" target="_blank">🫱 https://videy.co/v/?id=36fno4IZ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=QO1Cl0531" target="_blank">🫱 https://videy.co/v/?id=hYqVkGNm1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=rmJh4ir91" target="_blank">🫱 https://videy.co/v/?id=5DeJOF8l1</a>&nbsp;</div>            
+            <h2>SMP Belajar Live</h2>
+<div><a href="https://videy.selin.web.id/?videoID=Qp8PEz3T1" target="_blank">🫱 https://videy.co/v/?id=tXwyi8IA1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=5wZVrhhp1" target="_blank">🫱 https://videy.co/v/?id=8nWNWgmC1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=71QJymwS1" target="_blank">🫱 https://videy.co/v/?id=1ua3qbsq1</a>&nbsp;</div>            
+            <h2>Toge Super</h2>
+<div><a href="https://videy.selin.web.id/?videoID=KqcXP9nA1" target="_blank">🫱 https://videy.co/v/?id=dfUQ0H371</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=io2e35Mb1" target="_blank">🫱 https://videy.co/v/?id=JeHgBKEt1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=9srwtBgB1" target="_blank">🫱 https://videy.co/v/?id=I3vr9I8n1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=QaHbHFYS1" target="_blank">🫱 https://videy.co/v/?id=TeAc4Kl61</a>&nbsp;</div>            
+            <h2>Dicolok Sambil Direkam</h2>
+<div><a href="https://videy.selin.web.id/?videoID=vdfZmVc11" target="_blank">🫱 https://videy.co/v/?id=8kbsb66t1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=B5nULVTC1" target="_blank">🫱 https://videy.co/v/?id=0EAMGptB1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ww1Vp2fC1" target="_blank">🫱 https://videy.co/v/?id=CQPKs1cO1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=eqt3DtlV1" target="_blank">🫱 https://videy.co/v/?id=pMh6OmLF1</a>&nbsp;</div>            
+            <h2>Live Ngewe</h2>
+<div><a href="https://videy.selin.web.id/?videoID=8alR0AHb1" target="_blank">🫱 https://videy.co/v/?id=WmWcrD111</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=RAqn9Ggn1" target="_blank">🫱 https://videy.co/v/?id=CI5tAowI1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=1XtdQb921" target="_blank">🫱 https://videy.co/v/?id=BWYf3YC11</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=2y5hWEKF1" target="_blank">🫱 https://videy.co/v/?id=JDAl8Ecs1</a>&nbsp;</div>            
+            <h2>Masih Rapet</h2>
+<div><a href="https://videy.selin.web.id/?videoID=MysdO0EK1" target="_blank">🫱 https://videy.co/v/?id=R9LGCY2T1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=OGsd5AOL1" target="_blank">🫱 https://videy.co/v/?id=D58dioeX1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=KeSEt3OP1" target="_blank">🫱 https://videy.co/v/?id=Qt9vWQTx1</a>&nbsp;</div>            
+            <h2>Memek Legit Ayang</h2>
+<div><a href="https://videy.selin.web.id/?videoID=olYbd3BP1" target="_blank">🫱 https://videy.co/v/?id=VpzBccsl1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=yMNYXHmh1" target="_blank">🫱 https://videy.co/v/?id=dJIlBCs41</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=7PUtSBHQ1" target="_blank">🫱 https://videy.co/v/?id=mgkZxyPA1</a>&nbsp;</div>            
+            <h2>Konten Pribadi Tersebar</h2>
+<div><a href="https://videy.selin.web.id/?videoID=cxlZ8om91" target="_blank">🫱 https://videy.co/v/?id=DazE2qGH1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=PEGfGcCy1" target="_blank">🫱 https://videy.co/v/?id=4XgQ5RgZ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=vzTgqLry1" target="_blank">🫱 https://videy.co/v/?id=EyZ7yGOM1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=Tn8dNmMm1" target="_blank">🫱 https://videy.co/v/?id=8JuHGmd61</a>&nbsp;</div>            
+            <h2>Kecil Tapi Suhu</h2>
+<div><a href="https://videy.selin.web.id/?videoID=zA6cswBf1" target="_blank">🫱 https://videy.co/v/?id=0gGpn8WS1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=77CojviX1" target="_blank">🫱 https://videy.co/v/?id=jPMEBKoU1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=n36F1FDx1" target="_blank">🫱 https://videy.co/v/?id=9sSXM6fT1</a>&nbsp;</div>            
+            <h2>Uhty Pemberani</h2>
+<div><a href="https://videy.selin.web.id/?videoID=m52mIzgK1" target="_blank">🫱 https://videy.co/v/?id=xJee1X3N1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=DM3ML8A91" target="_blank">🫱 https://videy.co/v/?id=wJOeydMG1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=PfL34aaB1" target="_blank">🫱 https://videy.co/v/?id=j48is0Vt1</a>&nbsp;</div>            
+            <h2>Halococo Chindo Super Semok</h2>
+<div><a href="https://videy.selin.web.id/?videoID=ZxJD8NpN1" target="_blank">🫱 https://videy.co/v/?id=FojXiXpS1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=8mWmyI1L1" target="_blank">🫱 https://videy.co/v/?id=FmFofwgn1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ZLTcTdcs1" target="_blank">🫱 https://videy.co/v/?id=sLyxGlo61</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=GSRZeQTF1" target="_blank">🫱 https://videy.co/v/?id=2rOlG1lS1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=4fKziOPo1" target="_blank">🫱 https://videy.co/v/?id=ZMBFoZ7B1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=9eWsVaRz1" target="_blank">🫱 https://videy.co/v/?id=qiMsM1XX1</a>&nbsp;</div>            
+            <h2>Nurut Sama Om Dedi Part 1</h2>
+<div><a href="https://videy.selin.web.id/?videoID=ZvgwP2Mc1" target="_blank">🫱 https://videy.co/v/?id=5mGYQoQw1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=C0LAszui1" target="_blank">🫱 https://videy.co/v/?id=0HJ1HTZT1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=7VzmxyhD1" target="_blank">🫱 https://videy.co/v/?id=pVshb84r1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=0Piw7HWU1" target="_blank">🫱 https://videy.co/v/?id=9WYNgDC31</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=dsgIa7eq1" target="_blank">🫱 https://videy.co/v/?id=etx4ZM9b1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=bLWOAhJv1" target="_blank">🫱 https://videy.co/v/?id=COtFTcde1</a>&nbsp;</div>            
+            <h2>Pijatan STW Hyper</h2>
+<div><a href="https://videy.selin.web.id/?videoID=GtYpnPzn1" target="_blank">🫱 https://videy.co/v/?id=olcofrxt1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=sAAIlFbS1" target="_blank">🫱 https://videy.co/v/?id=QJYzopFd1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=OoTJi7UA1" target="_blank">🫱 https://videy.co/v/?id=gEoNywfA1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=oExBliSV1" target="_blank">🫱 https://videy.co/v/?id=NaTx2AiP1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=O4pCC5yp1" target="_blank">🫱 https://videy.co/v/?id=5kAVsIwH1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=orbcWHKe1" target="_blank">🫱 https://videy.co/v/?id=IkkNFGtB1</a>&nbsp;</div>            
+            <h2>Doggy Super Pulen</h2>
+<div><a href="https://videy.selin.web.id/?videoID=wUKHzS9S1" target="_blank">🫱 https://videy.co/v/?id=a0IJdcam1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=KAAAzVUQ1" target="_blank">🫱 https://videy.co/v/?id=efHlIM611</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=SSDsr2g41" target="_blank">🫱 https://videy.co/v/?id=eA6TWBE31</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=zDnqYFXZ1" target="_blank">🫱 https://videy.co/v/?id=3cNDMhr81</a>&nbsp;</div>            
+            <h2>Digenjot Kontol Super</h2>
+<div><a href="https://videy.selin.web.id/?videoID=0N7zmy7g1" target="_blank">🫱 https://videy.co/v/?id=eTzmCLgm1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ZMG8mems1" target="_blank">🫱 https://videy.co/v/?id=spmFqXkW1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=0WRpJpYf1" target="_blank">🫱 https://videy.co/v/?id=uvF0tIUn1</a>&nbsp;</div>            
+            <h2>Uhty Suka Entot</h2>
+<div><a href="https://videy.selin.web.id/?videoID=AlGs0jK81" target="_blank">🫱 https://videy.co/v/?id=EggNwoRM1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=4YKTiueh1" target="_blank">🫱 https://videy.co/v/?id=8ZcV0CA31</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=KQPetr6W1" target="_blank">🫱 https://videy.co/v/?id=U6wVyp7Z1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=6tQjCq6b1" target="_blank">🫱 https://videy.co/v/?id=9dRSjK2A1</a>&nbsp;</div>            
+            <h2>Bulu Jembut Tipis Menggoda</h2>
+<div><a href="https://videy.selin.web.id/?videoID=Hf7QRfw91" target="_blank">🫱 https://videy.co/v/?id=bYP800Dw1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=U06XiZ6g1" target="_blank">🫱 https://videy.co/v/?id=hV7r3PKR1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=XvQSbIde1" target="_blank">🫱 https://videy.co/v/?id=s0tsO4CB1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=JgcnH86M1" target="_blank">🫱 https://videy.co/v/?id=BXxiCiXQ1</a>&nbsp;</div>            
+            <h2>Adek Cantik</h2>
+<div><a href="https://videy.selin.web.id/?videoID=cyTQG7vD1" target="_blank">🫱 https://videy.co/v/?id=g3VrYKhB1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=A0NSrIDb1" target="_blank">🫱 https://videy.co/v/?id=2d7F4DjZ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=zlyg4JqL1" target="_blank">🫱 https://videy.co/v/?id=rCtslYWr1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=Ccn9nYqk1" target="_blank">🫱 https://videy.co/v/?id=N4CtrXRG1</a>&nbsp;</div>            
+            <h2>Pengocok Handal</h2>
+<div><a href="https://videy.selin.web.id/?videoID=IRlNr1U01" target="_blank">🫱 https://videy.co/v/?id=0seR4iWF1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=xU4wufRk1" target="_blank">🫱 https://videy.co/v/?id=AyZv0wJu1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=8EzShvhq1" target="_blank">🫱 https://videy.co/v/?id=lS9yBs9b1</a>&nbsp;</div>            
+            <h2>Cantik Dan Bermeki Embem</h2>
+<div><a href="https://videy.selin.web.id/?videoID=dPwM5RXv1" target="_blank">🫱 https://videy.co/v/?id=kEqPk9211</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=NVyYeCvj1" target="_blank">🫱 https://videy.co/v/?id=Suq924YX1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=RB3QeOQ91" target="_blank">🫱 https://videy.co/v/?id=pAxubjRp1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=zD91l8As1" target="_blank">🫱 https://videy.co/v/?id=63Mauufs1</a>&nbsp;</div>            
+            <h2>Bocil Bali</h2>
+<div><a href="https://videy.selin.web.id/?videoID=kg4eGMMC1" target="_blank">🫱 https://videy.co/v/?id=qWmhpKq61</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=ZHWY6GYL1" target="_blank">🫱 https://videy.co/v/?id=KzDyc9GJ1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=xi20YDlH1" target="_blank">🫱 https://videy.co/v/?id=PfDNjWfi1</a>&nbsp;</div>
+<div><a href="https://videy.selin.web.id/?videoID=Ao3Nhbyv1" target="_blank">🫱 https://videy.co/v/?id=v5MliaXC1</a>&nbsp;</div>            
+            
+            <p><strong>Join Tele 18+ Gratis:</strong><br>
+<div><a href="https://t.me/+YrdXZ1Glv1RmOGU9" target="_blank">🫱 https://t.me/+YrdXZ1Glv1RmOGU9</a>&nbsp;</div>
+</p>
+<p><strong>Bantu support biar semangat up:</strong><br>
+<div><a href="https://saweria.co/clarenvidey" target="_blank">🫱 https://saweria.co/clarenvidey</a>&nbsp;</div>
+</p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; 2025 Claren × Videy. All rights reserved.
+                </div>
+                <div class="visitor-counter">
+                    <span>Visitors:</span>
+                    <span id="visitorCount">0</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Telegram Banner -->
+    <div class="telegram-banner">
+        <span class="telegram-icon">✈</span>
+        <a href="https://t.me/+YrdXZ1Glv1RmOGU9" target="_blank">Join our Telegram Channel</a>
+    </div>
+
+    <script>
+        // Anti-copy and anti-right-click script
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('Content protection is enabled. Right-click is disabled.');
+        });
+        
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            alert('Content copying is disabled to protect intellectual property.');
+        });
+        
+        // Dark mode toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeIcon.textContent = '☀️';
+            themeText.textContent = 'Light Mode';
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light Mode';
+            } else {
+                localStorage.setItem('theme', 'light');
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark Mode';
+            }
+        });
+        
+        // Visitor counter using localStorage
+        const updateVisitorCounter = () => {
+            let count = localStorage.getItem('visitorCount');
+            
+            if (!count) {
+                count = 0;
+            }
+            
+            count = parseInt(count) + 1;
+            localStorage.setItem('visitorCount', count);
+            
+            document.getElementById('visitorCount').textContent = count;
+        };
+        
+        // Initialize visitor counter
+        updateVisitorCounter();
+        
+        // Lazy loading for images (native support with fallback)
+        document.addEventListener('DOMContentLoaded', function() {
+            if ('loading' in HTMLImageElement.prototype) {
+                // Native lazy loading is supported
+                const images = document.querySelectorAll('img[loading="lazy"]');
+                images.forEach(img => {
+                    img.src = img.dataset.src;
+                });
+            } else {
+                // Fallback for browsers without native lazy loading
+                const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+                
+                const lazyLoad = function() {
+                    lazyImages.forEach(img => {
+                        if (img.getBoundingClientRect().top <= window.innerHeight && 
+                            img.getBoundingClientRect().bottom >= 0 && 
+                            getComputedStyle(img).display !== 'none') {
+                            img.src = img.dataset.src;
+                            img.classList.add('loaded');
+                        }
+                    });
+                };
+                
+                const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.classList.add('loaded');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(img => {
+                    lazyLoadObserver.observe(img);
+                });
+                
+                lazyLoad();
+                window.addEventListener('scroll', lazyLoad);
+                window.addEventListener('resize', lazyLoad);
+                window.addEventListener('orientationchange', lazyLoad);
+            }
+        });
+    </script>
+</body>
+</html>
