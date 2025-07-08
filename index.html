@@ -515,6 +515,7 @@
 <p><strong>Bantu support biar semangat up:</strong><br>
 <div><a href="https://saweria.co/clarenvidey" target="_blank">🫱 https://saweria.co/clarenvidey</a>&nbsp;</div>
 </p>
+<ul id="postList"></ul>
         </article>
     </main>
 
@@ -639,5 +640,21 @@
             }
         });
     </script>
+<script>
+fetch('/posts.json')
+  .then(res => res.json())
+  .then(posts => {
+    // Acak urutan
+    posts.sort(() => 0.5 - Math.random());
+
+    // Tampilkan semua postingan
+    const list = document.getElementById('postList');
+    posts.forEach(post => {
+      const li = document.createElement('li');
+      li.innerHTML = `<a href="${post.url}" target="_blank">${post.title}</a>`;
+      list.appendChild(li);
+    });
+  });
+</script>
 </body>
 </html>
