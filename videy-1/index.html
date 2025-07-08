@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta name="keywords" content="Asupan Videy, asupan videy terbaru, video viral, konten video harian, kualitas jernih, link download cepat, update konten, tanpa ribet">
+    <meta name="author" content="Claren">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://videy.co.clarisa.web.id">
+    <meta property="og:title" content="Asupan | Videy">
+    <meta property="og:description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://videy.co.clarisa.web.id">
+    <meta property="twitter:title" content="Asupan | Videy">
+    <meta property="twitter:description" content="Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.">
+    <meta property="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png">
+    
+    <title>Tech Insights | Your Source for Digital Knowledge</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Light Theme */
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --primary-color: #4361ee;
+            --secondary-color: #3f37c9;
+            --accent-color: #4895ef;
+            --border-color: #e0e0e0;
+            --card-bg: #f9fafb;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            
+            /* Fonts */
+            --font-main: 'Inter', sans-serif;
+            --font-heading: 'Roboto', sans-serif;
+        }
+
+        .dark-mode {
+            /* Dark Theme */
+            --bg-color: #121212;
+            --text-color: #f5f5f5;
+            --primary-color: #4895ef;
+            --secondary-color: #4361ee;
+            --accent-color: #3f37c9;
+            --border-color: #333333;
+            --card-bg: #1e1e1e;
+            --shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+            text-decoration: underline;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-heading);
+            font-weight: 700;
+            line-height: 1.3;
+            margin: 1.5rem 0 1rem;
+            color: var(--text-color);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 0.5rem;
+            margin-top: 2.5rem;
+        }
+
+        h3 {
+            font-size: 1.75rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: var(--card-bg);
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+        }
+
+        /* Theme Toggle */
+        .theme-toggle {
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: var(--text-color);
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        /* Main Content */
+        main {
+            padding: 3rem 0;
+        }
+
+        .article-card {
+            background-color: var(--card-bg);
+            border-radius: 10px;
+            padding: 2rem;
+            margin-bottom: 2.5rem;
+            box-shadow: var(--shadow);
+            border: 1px solid var(--border-color);
+        }
+
+        .article-meta {
+            display: flex;
+            gap: 1rem;
+            color: #777;
+            margin-bottom: 1.5rem;
+            font-size: 0.9rem;
+        }
+
+        .article-image {
+            width: 100%;
+            height: 300px;
+            background-color: #ddd;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            object-fit: cover;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--card-bg);
+            padding: 2rem 0;
+            border-top: 1px solid var(--border-color);
+            margin-top: 2rem;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .visitor-counter {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        /* Telegram Banner */
+        .telegram-banner {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #2AABEE, #229ED9);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 50px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            animation: pulse 2s infinite;
+        }
+
+        .telegram-banner a {
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+        }
+
+        .telegram-icon {
+            font-size: 1.5rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.75rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                gap: 1rem;
+                text-align: center;
+            }
+            
+            .telegram-banner {
+                left: 20px;
+                right: 20px;
+                bottom: 10px;
+                justify-content: center;
+            }
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Asupan Videy",
+      "description": "Temukan Asupan Videy terbaru yang viral dan bikin nagih! Update konten video harian dengan kualitas jernih dan link download cepat tanpa ribet.",
+      "author": {
+        "@type": "Person",
+        "name": "Claren"
+      },
+      "publisher": {
+        "@type": "Creator",
+        "name": "Claren",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZ0VhICCDYj5rnzBGgExeGmCamqDMCV4JNlqA12oCiWT3iSrR7JmSSKgYSDlT0T-q1ibu-6U1CoDWSbVc6YsC1n1zUHBp_9b81sfSHwKRq_KQ07O2OssjOkwGVCIMQJTzwy0XT5OoAI4bIrnyndqc_stBpctifk2W9HDxUk_GJZb84Oms6nayDl9lDH9Kk/w640-h640/1000032192.png"
+        }
+      },
+      "datePublished": "2025-07-7",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoY0enJydixdVH3eR7DCzr9GBuQd7jg9C1FLWEqXKpP2DYszk_pPXB_8atJc5dwKX5hftpZhik_LnSCwIkj6E9JMeBUJl_z7191dSc26rOFp10gzRXnyQ48peSu9zYXln4L0dNzWOcdOrUvRDnbw0JixQJO_ZkyYDnyalIqBait4ueLAOlcq_KKF49tLU5/s3264/1000032960.png"
+    }
+    </script>
+
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Calren × Videy</div>
+                <nav class="nav-links">
+                    <a href="https://videy.co.clarisa.web.id">Home</a>
+                    <a href="https://videy.co.clarisa.web.id">Articles</a>
+                    <a href="https://videy.co.clarisa.web.id">About</a>
+                    <a href="https://videy.co.clarisa.web.id">Contact</a>
+                </nav>
+                <button class="theme-toggle" id="themeToggle">
+                    <span id="themeIcon">🌙</span> <span id="themeText">Dark Mode</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <article class="article-card">
+            <h1>Asupan Videy</h1>
+            <div class="article-meta">
+                <span>Claren</span>
+                <span>•</span>
+                <span>Juli 7, 2025</span>
+                <span>•</span>
+                <span>120 min read</span>
+            </div>
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhusHPTr8ik3UXTkcOs3tbWcMTEHvWDlXlw89a3V8hizM4e2f1xM_qWRdngDbuGG1OrD6cn42X3dXY_xowRJ2tjdHIl5DFXJHvQv5Z3Qmoljy9qayhgjCBi5_JBCqCq6hG8Xpd4AELh6-tv2b268zoGjcEV8O6c2AVIe0ewsXrtN1LftzxVN38KXGs7yhek/s1600/1000033284.png" class="article-image" alt="Gambar Artikel">
+            
+<h2>Random Posts</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=NFdb41bC1" target="_blank">🫱 https://videy.co/v/?id=FFKOKKzA1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=hAggOx7k1" target="_blank">🫱 https://videy.co/v/?id=2xeLOKxA1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=2WlqC0CI1" target="_blank">🫱 https://videy.co/v/?id=PiWRFIIy1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Z9Tk1vMk1" target="_blank">🫱 https://videy.co/v/?id=OFtT9d8i1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=N9Ck7We31" target="_blank">🫱 https://videy.co/v/?id=gQ9NWnxP1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=2wdH4a1W1" target="_blank">🫱 https://videy.co/v/?id=VKNYHsdn1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=bZe1ThXR1" target="_blank">🫱 https://videy.co/v/?id=v19ODQ7d1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=FGvWrLx01" target="_blank">🫱 https://videy.co/v/?id=NcPglKuP1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=52efmFuP1" target="_blank">🫱 https://videy.co/v/?id=8PQe5vC61</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=uUj9FGAP1" target="_blank">🫱 https://videy.co/v/?id=UlesAclm1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=I0p8KBtK1" target="_blank">🫱 https://videy.co/v/?id=TaccZR861</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=mRZ1Lm0Y1" target="_blank">🫱 https://videy.co/v/?id=EFTYtcvT1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=bw8jWJIO1" target="_blank">🫱 https://videy.co/v/?id=uvHNsGut1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=t5rQOiOt1" target="_blank">🫱 https://videy.co/v/?id=qBpfcdSc1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=kZLjnHHq1" target="_blank">🫱 https://videy.co/v/?id=D1ozVuv41</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=KbAptZaz1" target="_blank">🫱 https://videy.co/v/?id=ym2GY96f1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=O4utdKsg1" target="_blank">🫱 https://videy.co/v/?id=eLui4gUL1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=UlJvwjQF1" target="_blank">🫱 https://videy.co/v/?id=eYhvReeT1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=4aA8dAcp1" target="_blank">🫱 https://videy.co/v/?id=vns0Q7R91</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=p87I6YvZ1" target="_blank">🫱 https://videy.co/v/?id=AySu27rn1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=IQuyCoTP1" target="_blank">🫱 https://videy.co/v/?id=oMc7E6T11</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Eom3pD1z1" target="_blank">🫱 https://videy.co/v/?id=EYxMGaUZ1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=YRu2K5D51" target="_blank">🫱 https://videy.co/v/?id=dM1BKhaT1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=9nlsujVp1" target="_blank">🫱 https://videy.co/v/?id=hxeFMVRD1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=QgqNxFj71" target="_blank">🫱 https://videy.co/v/?id=CwtIsogX1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=5TpudbDV1" target="_blank">🫱 https://videy.co/v/?id=QuSfqTfh1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=U3YdW41Z1" target="_blank">🫱 https://videy.co/v/?id=6E5islyR1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=31Doz8g51" target="_blank">🫱 https://videy.co/v/?id=wmqiOEBp1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=GGMwdMo41" target="_blank">🫱 https://videy.co/v/?id=XecO9jIu1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=V3z0DTWV1" target="_blank">🫱 https://videy.co/v/?id=6cxsxuCd1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=0XO6ii1D1" target="_blank">🫱 https://videy.co/v/?id=OGnle0rL1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=bZe1ThXR1" target="_blank">🫱 https://videy.co/v/?id=18RjI3QP1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Xyno8mcG1" target="_blank">🫱 https://videy.co/v/?id=ox3WQA201</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=0r7b7wpo1" target="_blank">🫱 https://videy.co/v/?id=HVkx5IsV1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=bQWAbKIR1" target="_blank">🫱 https://videy.co/v/?id=69t9kTx61</a>&nbsp;</div>
+<h2>Om Dedy Update Part 2</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Yz8Yh0F21" target="_blank">🫱 https://videy.co/v/?id=nOrEpPna1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=BMymtL3W1" target="_blank">🫱 https://videy.co/v/?id=jvWZw6f31</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=rUIQj3vC1" target="_blank">🫱 https://videy.co/v/?id=0liKYmCL1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=M7XSgvWL1" target="_blank">🫱 https://videy.co/v/?id=4bJ0cEUx1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=WgmaauOB1" target="_blank">🫱 https://videy.co/v/?id=ZBlStqIF1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=PRFV7rN11" target="_blank">🫱 https://videy.co/v/?id=1HbBYi1K1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=iZQWtKMP1" target="_blank">🫱 https://videy.co/v/?id=BCBoEQMX1</a>&nbsp;</div>
+<h2>Ometv ditemani kakak kacamata cantik</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=JjqG00RZ1" target="_blank">🫱 https://videy.co/v/?id=L1WJDpAd1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Jo7zyL1S1" target="_blank">🫱 https://videy.co/v/?id=u1dWZiSD1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=hcmKQzN61" target="_blank">🫱 https://videy.co/v/?id=mB9nF8J11</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=e6FOvKnA1" target="_blank">🫱 https://videy.co/v/?id=vaqissDi1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=hFpWrj8V1" target="_blank">🫱 https://videy.co/v/?id=9O5H5iYt1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=i7hkZO7a1" target="_blank">🫱 https://videy.co/v/?id=T2mMA6dY1</a>&nbsp;</div>
+<h2>Talent resharona t0brut pulen</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=cMjYHjYm1" target="_blank">🫱 https://videy.co/v/?id=cESI89gc1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=wlkSBReS1" target="_blank">🫱 https://videy.co/v/?id=0tQsLDrw1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=ViCaEpPE1" target="_blank">🫱 https://videy.co/v/?id=VXiT4Xk51</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=MD2T3x1d1" target="_blank">🫱 https://videy.co/v/?id=IzQ9WEuh1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=q7bWtXPE1" target="_blank">🫱 https://videy.co/v/?id=6w0POe9a1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=WEt9c8ud1" target="_blank">🫱 https://videy.co/v/?id=J7TLEXjh1</a>&nbsp;</div>
+<h2>Milana Milka Uting Pink</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Pl8pPBU01" target="_blank">🫱 https://videy.co/v/?id=r5zZ585o1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=csu44UKl1" target="_blank">🫱 https://videy.co/v/?id=BQp42Bmd1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=XU9nIxTo1" target="_blank">🫱 https://videy.co/v/?id=IWvNyk2q1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=wCYMR5s31" target="_blank">🫱 https://videy.co/v/?id=7j1NfAEC1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=jC46Rjbr1" target="_blank">🫱 https://videy.co/v/?id=pJcqELhE1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=qZGB6XEK1" target="_blank">🫱 https://videy.co/v/?id=g9IsBv5u1</a>&nbsp;</div>
+<h2>Salam Pramuka tobrut</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=fH1x1YEs1" target="_blank">🫱 https://videy.co/v/?id=a1oaAJZw1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=b6etLwq01" target="_blank">🫱 https://videy.co/v/?id=JNSSjmTA1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=XIkhXO371" target="_blank">🫱 https://videy.co/v/?id=YTwzuCUj1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=rSXZB6X61" target="_blank">🫱 https://videy.co/v/?id=zlXVLq4X1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=QeCk7iIy1" target="_blank">🫱 https://videy.co/v/?id=5knmuEfR1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=RHIuGxQm1" target="_blank">🫱 https://videy.co/v/?id=enyWTOrC1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=po930IFW1" target="_blank">🫱 https://videy.co/v/?id=HEaRiKX01</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=eUixEBmV1" target="_blank">🫱 https://videy.co/v/?id=FRkIK7JT1</a>&nbsp;</div>
+<h2>Shopia esempeh handal</h2>
+<div><a href="https://cdn.clarisa.web.id/?videoID=PQ2YY4w91" target="_blank">🫱 https://videy.co/v/?id=B7wu1bGV1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=ZZQ6yio81" target="_blank">🫱 https://videy.co/v/?id=08ryQkRF1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=ggxJNZvI1" target="_blank">🫱 https://videy.co/v/?id=KoWULrm51</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=JFZOu8qv1" target="_blank">🫱 https://videy.co/v/?id=WvLupq6U1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=P1rzRFAR1" target="_blank">🫱 https://videy.co/v/?id=c3IRZI2x1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=Ubb2awJ31" target="_blank">🫱 https://videy.co/v/?id=P1xJ90fE1</a>&nbsp;</div>
+<div><a href="https://cdn.clarisa.web.id/?videoID=cXa1Yqdw1" target="_blank">🫱 https://videy.co/v/?id=frU8hTaK1</a>&nbsp;</div>
+<p><strong>Join Tele 18+ Gratis:</strong><br>
+<div><a href="https://t.me/+YrdXZ1Glv1RmOGU9" target="_blank">🫱 https://t.me/+YrdXZ1Glv1RmOGU9</a>&nbsp;</div>
+</p>
+<p><strong>Bantu support biar semangat up:</strong><br>
+<div><a href="https://saweria.co/clarenvidey" target="_blank">🫱 https://saweria.co/clarenvidey</a>&nbsp;</div>
+</p>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="copyright">
+                    &copy; 2025 Claren × Videy. All rights reserved.
+                </div>
+                <div class="visitor-counter">
+                    <span>Visitors:</span>
+                    <span id="visitorCount">0</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Telegram Banner -->
+    <div class="telegram-banner">
+        <span class="telegram-icon">✈</span>
+        <a href="https://t.me/+YrdXZ1Glv1RmOGU9" target="_blank">Join our Telegram Channel</a>
+    </div>
+
+    <script>
+        // Anti-copy and anti-right-click script
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            alert('Content protection is enabled. Right-click is disabled.');
+        });
+        
+        document.addEventListener('copy', function(e) {
+            e.preventDefault();
+            alert('Content copying is disabled to protect intellectual property.');
+        });
+        
+        // Dark mode toggle
+        const themeToggle = document.getElementById('themeToggle');
+        const themeIcon = document.getElementById('themeIcon');
+        const themeText = document.getElementById('themeText');
+        
+        const currentTheme = localStorage.getItem('theme') || 'light';
+        
+        if (currentTheme === 'dark') {
+            document.body.classList.add('dark-mode');
+            themeIcon.textContent = '☀️';
+            themeText.textContent = 'Light Mode';
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            
+            if (document.body.classList.contains('dark-mode')) {
+                localStorage.setItem('theme', 'dark');
+                themeIcon.textContent = '☀️';
+                themeText.textContent = 'Light Mode';
+            } else {
+                localStorage.setItem('theme', 'light');
+                themeIcon.textContent = '🌙';
+                themeText.textContent = 'Dark Mode';
+            }
+        });
+        
+        // Visitor counter using localStorage
+        const updateVisitorCounter = () => {
+            let count = localStorage.getItem('visitorCount');
+            
+            if (!count) {
+                count = 0;
+            }
+            
+            count = parseInt(count) + 1;
+            localStorage.setItem('visitorCount', count);
+            
+            document.getElementById('visitorCount').textContent = count;
+        };
+        
+        // Initialize visitor counter
+        updateVisitorCounter();
+        
+        // Lazy loading for images (native support with fallback)
+        document.addEventListener('DOMContentLoaded', function() {
+            if ('loading' in HTMLImageElement.prototype) {
+                // Native lazy loading is supported
+                const images = document.querySelectorAll('img[loading="lazy"]');
+                images.forEach(img => {
+                    img.src = img.dataset.src;
+                });
+            } else {
+                // Fallback for browsers without native lazy loading
+                const lazyImages = document.querySelectorAll('img[loading="lazy"]');
+                
+                const lazyLoad = function() {
+                    lazyImages.forEach(img => {
+                        if (img.getBoundingClientRect().top <= window.innerHeight && 
+                            img.getBoundingClientRect().bottom >= 0 && 
+                            getComputedStyle(img).display !== 'none') {
+                            img.src = img.dataset.src;
+                            img.classList.add('loaded');
+                        }
+                    });
+                };
+                
+                const lazyLoadObserver = new IntersectionObserver((entries, observer) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.classList.add('loaded');
+                            observer.unobserve(img);
+                        }
+                    });
+                });
+                
+                lazyImages.forEach(img => {
+                    lazyLoadObserver.observe(img);
+                });
+                
+                lazyLoad();
+                window.addEventListener('scroll', lazyLoad);
+                window.addEventListener('resize', lazyLoad);
+                window.addEventListener('orientationchange', lazyLoad);
+            }
+        });
+    </script>
+</body>
+</html>
