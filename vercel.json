@@ -1,0 +1,24 @@
+{
+  "routes": [
+    { "src": "/Y8DIUlMz1.mp4", "dest": "/videy-1/index.html" },
+    { "src": "/MVgY0KAV1.mp4", "dest": "/videy-2/index.html" },
+    { "src": "/qOB2Y89G1.mp4", "dest": "/videy-3/index.html" },
+    { "src": "/tJs1eGHF1.mp4", "dest": "/videy-4/index.html" },
+    { "src": "/orjU23cD1.mp4", "dest": "/videy-5/index.html" },
+    { "src": "/EpjU1VXa1.mp4", "dest": "/videy-6/index.html" },
+    { "src": "/AKpR7zXe1.mp4", "dest": "/videy-7/index.html" },
+    { "src": "/PbYKt0Va1.mp4", "dest": "/videy-8/index.html" },
+    { "src": "/mQXv8ZRd1.mp4", "dest": "/videy-9/index.html" },
+    { "src": "/zMKC1HpT1.mp4", "dest": "/videy-10/index.html" },
+    { "src": "/Fh6kPUrJ1.mp4", "dest": "/videy-11/index.html" },
+    { "src": "/qLTs0UYa1.mp4", "dest": "/videy-12/index.html" },
+    { "src": "/R7AYzMmX1.mp4", "dest": "/videy-13/index.html" },
+    { "src": "/CVan4gTZ1.mp4", "dest": "/videy-14/index.html" },
+    { "src": "/Xd0yHnbF1.mp4", "dest": "/videy-15/index.html" },
+    { "src": "/jBhXEtpr1.mp4", "dest": "/videy-16/index.html" },
+    { "src": "/kQU2eNcP1.mp4", "dest": "/videy-17/index.html" },
+    { "src": "/AaNYXrWL1.mp4", "dest": "/videy-18/index.html" },
+    { "src": "/DRFg83zL1.mp4", "dest": "/videy-19/index.html" },
+    { "src": "/BcYE9QSw1.mp4", "dest": "/videy-20/index.html" }
+  ]
+}
